@@ -7,6 +7,8 @@ import {
   getTrendings,
 } from "@/lib/data";
 
+export const revalidate = 0;
+
 export default async function Home() {
   const { movie: movieGenres, tv: tvGenres } = await getGenres();
   const popularMovies = await getPopularMovies();

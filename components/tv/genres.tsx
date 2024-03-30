@@ -13,7 +13,7 @@ export default function Genres({ data }: GenresProps) {
       <div className="flex flex-wrap gap-2">
         {data.map((genre) => (
           <a
-            href="#"
+            href={`/genre/${genre.id}/tv`}
             key={genre.id}
             className=" border-cyan-800 border-2 rounded px-2 py-1 hover:bg-cyan-800 duration-200"
           >
