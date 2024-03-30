@@ -11,6 +11,9 @@ export const metadata: Metadata = {
     default: "EigaDB",
     template: "%s — EigaDB",
   },
+  icons: {
+    icon: "/favicon.ico",
+  },
   description:
     "EigaDB is your ultimate destination for movie and TV series enthusiasts seeking high-quality recommendations. With a comprehensive database covering thousands of titles, we offer an unparalleled experience in discovering entertainment tailored to your preferences.",
 };
