@@ -1,0 +1,5 @@
+#posterimage {
+  box-shadow: 0px 0px 33px 3px rgba(0, 0, 0, 0.66);
+  -webkit-box-shadow: 0px 0px 33px 3px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 0px 0px 33px 3px rgba(0, 0, 0, 0.66);
+}
